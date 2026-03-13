@@ -1,0 +1,20 @@
+{
+  "buildpacks": [
+    { "url": "heroku/nodejs" }
+  ],
+  "environments": {
+    "test": {
+      "env": {
+        "NODE_OPTIONS": "--max-old-space-size=512"
+      },
+      "buildpacks": [
+        { "url": "heroku/nodejs" }
+      ],
+      "formation": {
+        "test": {
+          "size": "standard-2x"
+        }
+      }
+    }
+  }
+}
