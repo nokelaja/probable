@@ -1,0 +1,12 @@
+{
+  "name": "ProNode",
+  "version": "0.3.5",
+  "description": "Pronode for scaling database",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Nokichie",
+  "license": "MIT",
+  "private": true
+}
